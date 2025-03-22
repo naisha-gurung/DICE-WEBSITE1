@@ -16,25 +16,39 @@ html {
 }
 
 @keyframes slide {
-  0%, 14.29% {
+
+  0%,
+  14.29% {
     background-image: url("./assets/heroBg.jpeg");
   }
-  14.3%, 28.57% {
+
+  14.3%,
+  28.57% {
     background-image: url("./assets/herobg2.jpg");
   }
-  28.58%, 42.86% {
+
+  28.58%,
+  42.86% {
     background-image: url("./assets/herobg3.jpg");
   }
-  42.87%, 57.14% {
+
+  42.87%,
+  57.14% {
     background-image: url("./assets/herobg4.jpg");
   }
-  57.15%, 71.43% {
+
+  57.15%,
+  71.43% {
     background-image: url("./assets/herobg5.jpg");
   }
-  71.44%, 85.71% {
+
+  71.44%,
+  85.71% {
     background-image: url("./assets/herobg6.jpg");
   }
-  85.72%, 100% {
+
+  85.72%,
+  100% {
     background-image: url("./assets/herobg7.jpg");
   }
 }
@@ -72,6 +86,7 @@ html {
   background-size: cover;
   background-position: center;
 }
+
 .blog-post {
   position: relative;
   transition: all 0.3s ease;
@@ -101,7 +116,7 @@ html {
   background-position: center;
 }
 
-.aboutHero{
+.aboutHero {
   background-image: url("https://lh5.googleusercontent.com/p/AF1QipNE9uw_rVqgH7aQEdIw1PjVERXRPItNwYNmoiOg=s709-k-no");
   background-repeat: no-repeat;
   background-position: center;

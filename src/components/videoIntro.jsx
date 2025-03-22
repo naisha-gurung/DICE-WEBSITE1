@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import video from "../assets/DiceVid2.mp4";
 
 export default function VideoIntro() {
@@ -11,8 +11,8 @@ export default function VideoIntro() {
       if (!videoElement) return;
 
       const rect = videoElement.getBoundingClientRect();
-      const windowHeight =
-        window.innerHeight || document.documentElement.clientHeight;
+      const windowHeight = window.innerHeight ||
+        document.documentElement.clientHeight;
       const videoTopOffset = rect.top;
 
       if (videoTopOffset < windowHeight * 0.5 && !videoIsPlaying) {
@@ -49,7 +49,8 @@ export default function VideoIntro() {
         controls
         muted
         className="sm:h-[580px] m-5 rounded-3xl"
-      ></video>
+      >
+      </video>
       <div className="hidden lg:flex flex-col items-center justify-around">
         <div className="bg-red-600 h-[100px] w-[5px]"></div>
         <h1 className="font-bold text-8xl">D</h1>

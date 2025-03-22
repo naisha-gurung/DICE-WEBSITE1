@@ -71,7 +71,11 @@ export default function Register() {
     { label: "Name", name: "name", type: "text" },
     { label: "Email", name: "email", type: "email" },
     { label: "Roll Number", name: "rollno", type: "text" },
-    { label: "Hostller / Day Scholar", name: "hostllerOrDayScholar", type: "text" },
+    {
+      label: "Hostller / Day Scholar",
+      name: "hostllerOrDayScholar",
+      type: "text",
+    },
     { label: "Mobile Number", name: "mobile", type: "text" },
     { label: "Branch", name: "branch", type: "text" },
     { label: "Semester", name: "semester", type: "text" },

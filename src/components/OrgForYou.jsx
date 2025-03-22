@@ -1,7 +1,7 @@
 import React from "react";
 import { GrWorkshop } from "react-icons/gr";
 import { IoTerminal } from "react-icons/io5";
-import { FaLaptopCode, FaChalkboardTeacher } from "react-icons/fa";
+import { FaChalkboardTeacher, FaLaptopCode } from "react-icons/fa";
 import image2 from "../assets/image2.jpeg";
 
 export default function OrgForYou() {

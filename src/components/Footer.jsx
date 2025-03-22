@@ -54,7 +54,11 @@ const Footer = () => {
             >
               <FaInstagram className="text-white text-3xl duration-300 hover:text-pink-500 hover:scale-125" />
             </a>
-            <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/dice-chitkara-university-12481b266/">
+            <a
+              id="linkedin"
+              target="_blank"
+              href="https://www.linkedin.com/in/dice-chitkara-university-12481b266/"
+            >
               <FaLinkedin className="text-white text-3xl duration-300 hover:text-blue-400 hover:scale-125" />
             </a>
           </div>
