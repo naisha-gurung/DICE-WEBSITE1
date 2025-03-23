@@ -1,6 +1,17 @@
 import React, { useEffect, useRef, useState } from "react";
 import video from "../assets/DiceVid2.mp4";
 
+const VerticalLogo = () => (
+  <div className="hidden lg:flex flex-col items-center justify-around">
+    <div className="bg-red-600 h-[100px] w-[5px]"></div>
+    <h1 className="font-bold text-8xl">D</h1>
+    <h1 className="font-bold text-8xl">I</h1>
+    <h1 className="font-bold text-8xl">C</h1>
+    <h1 className="font-bold text-8xl">E</h1>
+    <div className="bg-red-600 h-[100px] w-[5px]"></div>
+  </div>
+);
+
 export default function VideoIntro() {
   const videoRef = useRef(null);
   const [videoIsPlaying, setVideoIsPlaying] = useState(false);
@@ -32,14 +43,7 @@ export default function VideoIntro() {
 
   return (
     <div className="w-full flex items-center justify-around py-12">
-      <div className="hidden lg:flex flex-col items-center justify-around">
-        <div className="bg-red-600 h-[100px] w-[5px]"></div>
-        <h1 className="font-bold text-8xl">D</h1>
-        <h1 className="font-bold text-8xl">I</h1>
-        <h1 className="font-bold text-8xl">C</h1>
-        <h1 className="font-bold text-8xl">E</h1>
-        <div className="bg-red-600 h-[100px] w-[5px]"></div>
-      </div>
+      <VerticalLogo />
 
       <video
         ref={videoRef}
@@ -51,14 +55,8 @@ export default function VideoIntro() {
         className="sm:h-[580px] m-5 rounded-3xl"
       >
       </video>
-      <div className="hidden lg:flex flex-col items-center justify-around">
-        <div className="bg-red-600 h-[100px] w-[5px]"></div>
-        <h1 className="font-bold text-8xl">D</h1>
-        <h1 className="font-bold text-8xl">I</h1>
-        <h1 className="font-bold text-8xl">C</h1>
-        <h1 className="font-bold text-8xl">E</h1>
-        <div className="bg-red-600 h-[100px] w-[5px]"></div>
-      </div>
+
+      <VerticalLogo />
     </div>
   );
 }

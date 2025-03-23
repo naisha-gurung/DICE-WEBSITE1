@@ -5,35 +5,8 @@ import FAQSection from "../FAQSection";
 import BlogSlider from "../BlogSlider";
 import { Link } from "react-router-dom";
 import diceVid3 from "../../assets/DiceVid3.mp4";
-
-const OnGoingEvents = [
-  {
-    id: "1",
-    eventName: "Event 1",
-    eventDetail:
-      " Immerse yourself in the fusion of gaming and education at the DICE-SKOAR Gamers Arcade on December 8, 2023, hosted at the Sportorium. Experience AR/VR gaming, PS5, and laptop gaming while discovering how these technologies can enhance your grasp of complex technical concepts. Engage in interactive sessions to gain insights into the future of learning. Witness thrilling online gaming competitions as 12 teams from Chitkara University compete for top honors, with cash prizes and goodies awaiting the champions. Join us for an unforgettable event, where fun meets learning in the digital realm.",
-    eventDate: "2024-04-10 to 2024-04-15",
-    scriptUrl:
-      "https://script.google.com/macros/s/AKfycbzWEjFV-lpkk7gvh5f5qavXxaZDpblbF2BvKdFFml2HxNnsxQDydCE97VE3W3QWPcN-/exec",
-  },
-  {
-    id: "2",
-    eventName: "Event 2",
-    eventDetail:
-      "Dr. Talwar's leadership was pivotal in ensuring the event's success. Gratitude is extended to all members of DICE, the expert panel, and participants for their invaluable contributions. Special thanks to the management for their unwavering support. Experience Engineer's Day Calibration: a celebration of collaboration, innovation, and real-world engineering challenges.",
-    eventDate: "2024-04-10 to 2024-04-15",
-    scriptUrl: "", // App Script Url
-  },
-];
-const upcomingEvents = [
-  {
-    eventName: "Event 2",
-    eventDetail:
-      "Dr. Talwar's leadership was pivotal in ensuring the event's success. Gratitude is extended to all members of DICE, the expert panel, and participants for their invaluable contributions. Special thanks to the management for their unwavering support. Experience Engineer's Day Calibration: a celebration of collaboration, innovation, and real-world engineering challenges.",
-    eventDate: "2024-04-15 to 2024-04-25",
-    EventFormLink: "", // App Script Url
-  },
-];
+import events_upcoming from "../../data/events_upcoming.json";
+import events_ongoing from "../../data/events_ongoing.json";
 
 export default function Event() {
   return (
@@ -81,7 +54,7 @@ export default function Event() {
           Ongoing Events
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {OnGoingEvents.map((event, index) => (
+          {events_ongoing.map((event, index) => (
             <div
               key={index}
               className="border border-black hover:shadow-blue-300 shadow-xl rounded-lg p-6 duration-500 hover:scale-105"
@@ -118,11 +91,11 @@ export default function Event() {
         <h1 className="text-4xl font-semibold mb-12 sm:text-5xl">
           Upcoming Events
         </h1>
-        {upcomingEvents.length === 0
+        {events_upcoming.length === 0
           ? <p className="text-2xl text-center">We will be organizing soon</p>
           : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {upcomingEvents.map((event, index) => (
+              {events_upcoming.map((event, index) => (
                 <div
                   key={index}
                   className="border border-black hover:shadow-blue-300 shadow-xl rounded-lg p-6 duration-500 hover:scale-105"
