@@ -3,7 +3,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Research from "./components/pages/Research";
-import Blog from "./components/pages/Blog";
+import NationalEvents from "./components/pages/NationalEvents";
 import Event from "./components/pages/Event";
 import Register from "./components/pages/Register";
 
@@ -12,7 +12,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/blog" element={<Blog />} />
+      <Route path="/national" element={<NationalEvents />} />
       <Route path="/event" element={<Event />} />
       <Route path="/research" element={<Research />} />
       <Route path="/contact" element={<Contact />} />

@@ -11,7 +11,7 @@ import blogpost9 from "../../assets/BlogPageImg9.png";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
-const Blog = () => {
+const NationalEvents = () => {
   const blogs = [
     {
       title:
@@ -130,4 +130,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default NationalEvents;
