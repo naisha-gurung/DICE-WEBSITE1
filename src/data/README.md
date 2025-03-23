@@ -7,4 +7,5 @@ events_upcominh.json -> src/components/pages/Event.jsx
 faqs.json -> src/components/FAQSection.jsx
 for_you_events.json -> src/components/OrgForYou.jsx
 publications.json -> src/components/pages/Research.jsx
+nation_event_projects.json -> src/components/pages/NationalEvents.jsx
 social_links.json -> src/components/Footer.jsx
