@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Hero from "../Hero";
 import JoinCommunity from "../JoinCommunity";
-import BlogSlider from "../BlogSlider";
+import EventSlider from "../EventSlider";
 import VideoIntro from "../videoIntro";
 import OrgForYou from "../OrgForYou";
 import AboutSec from "../AboutSec";
@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AboutSec />
-      <BlogSlider />
+      <EventSlider />
       <OrgForYou />
       <VideoIntro />
       <FAQSection />

@@ -1,27 +1,27 @@
 import React, { useState } from "react";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-import blogs from "../data/blogs.json";
+import events from "../data/events.json";
 
 const BlogSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === blogs.length - 2 ? 0 : prevIndex + 1
+      prevIndex === events.length - 2 ? 0 : prevIndex + 1
     );
   };
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? blogs.length - 2 : prevIndex - 1
+      prevIndex === 0 ? events.length - 2 : prevIndex - 1
     );
   };
 
   return (
     <div className="relative flex items-center justify-center my-10">
       <div className="flex sm:w-[90%]  justify-between overflow-hidden flex-wrap">
-        {blogs.slice(currentIndex, currentIndex + 2).map((blog) => (
+        {events.slice(currentIndex, currentIndex + 2).map((blog) => (
           <div key={blog.id} className="w-full md:w-1/2 p-4 sm:p-2  lg:p-12">
             <div className="bg-white m-4 md:h-[500px] lg:h-[400px] shadow-md rounded-lg overflow-hidden duration-300 hover:shadow-2xl hover:scale-105 cursor-pointer">
               <img

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import FAQSection from "../FAQSection";
-import BlogSlider from "../BlogSlider";
+import EventSlider from "../EventSlider";
 import { Link } from "react-router-dom";
 import diceVid3 from "../../assets/DiceVid3.mp4";
 import events_upcoming from "../../data/events_upcoming.json";
@@ -17,7 +17,7 @@ export default function Event() {
           Past Events
         </h1>
         <div>
-          <BlogSlider />
+          <EventSlider />
         </div>
         <div className="w-full flex flex-col md:flex-row items-center justify-center mb-28">
           <div className="md:w-1/2 p-4">
