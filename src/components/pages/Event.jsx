@@ -53,39 +53,47 @@ export default function Event() {
         <h1 className="text-4xl font-semibold mb-12 sm:text-5xl">
           Ongoing Events
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {events_ongoing.map((event, index) => (
-            <div
-              key={index}
-              className="border border-black hover:shadow-blue-300 shadow-xl rounded-lg p-6 duration-500 hover:scale-105"
-            >
-              <div className="h-[450px] sm:h-[400px]">
-                <h2 className="font-semibold text-3xl mb-4">
-                  {event.eventName}
-                </h2>
-                <p className="text-gray-600 mb-2">
-                  <strong>Date</strong> {event.eventDate}
-                </p>
-                <p className="text-gray-600 mb-2">{event.eventDetail}</p>
-              </div>
-              <div className="mt-8">
-                <Link
-                  to={{
-                    pathname: `/register/${
-                      encodeURIComponent(
-                        JSON.stringify(event),
-                      )
-                    }`,
-                    state: { event: event },
-                  }}
-                  className="bg-black text-white py-2 px-8 rounded"
+        {events_ongoing.length === 0
+          ? (
+            <p className="text-2xl text-center">
+              No ongoing events at the moment
+            </p>
+          )
+          : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {events_ongoing.map((event, index) => (
+                <div
+                  key={index}
+                  className="border border-black hover:shadow-blue-300 shadow-xl rounded-lg p-6 duration-500 hover:scale-105"
                 >
-                  Register
-                </Link>
-              </div>
+                  <div className="h-[450px] sm:h-[400px]">
+                    <h2 className="font-semibold text-3xl mb-4">
+                      {event.eventName}
+                    </h2>
+                    <p className="text-gray-600 mb-2">
+                      <strong>Date</strong> {event.eventDate}
+                    </p>
+                    <p className="text-gray-600 mb-2">{event.eventDetail}</p>
+                  </div>
+                  <div className="mt-8">
+                    <Link
+                      to={{
+                        pathname: `/register/${
+                          encodeURIComponent(
+                            JSON.stringify(event),
+                          )
+                        }`,
+                        state: { event: event },
+                      }}
+                      className="bg-black text-white py-2 px-8 rounded"
+                    >
+                      Register
+                    </Link>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          )}
       </div>
       <div className="container mx-auto pt-40 py-8 p-4">
         <h1 className="text-4xl font-semibold mb-12 sm:text-5xl">
