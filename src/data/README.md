@@ -1,18 +1,49 @@
 # Info
 
-1. competitions.json -> src/components/pages/Research.jsx
-2. events_ongoing.json -> src/components/pages/Event.jsx
-3. events_upcoming.json -> src/components/pages/Event.jsx
-4. events.json -> src/components/EventSlider.jsx
-5. faqs.json -> src/components/FAQSection.jsx
-6. for_you_events.json -> src/components/OrgForYou.jsx
-7. nation_event_projects.json -> src/components/pages/NationalEvents.jsx
-8. publications.json -> src/components/pages/Research.jsx
-9. social_links.json -> src/components/Footer.jsx
+- about.json --> src/components/pages/About.jsx
+- competitions.json -> src/components/pages/Research.jsx
+- events_ongoing.json -> src/components/pages/Event.jsx
+- events_upcoming.json -> src/components/pages/Event.jsx
+- events.json -> src/components/EventSlider.jsx
+- faqs.json -> src/components/FAQSection.jsx
+- for_you_events.json -> src/components/OrgForYou.jsx
+- nation_event_projects.json -> src/components/pages/NationalEvents.jsx
+- publications.json -> src/components/pages/Research.jsx
+- social_links.json -> src/components/Footer.jsx
 
 ## Samples
 
-1. competitions.json -> src/components/pages/Research.jsx
+- about.json --> src/components/pages/About.jsx
+
+    ```txt
+    {
+        "founder": {
+            "name": "Dr. (Prof) Rajneesh Talwaar",
+            "designation": "Dean: DICE",
+            "image": "src/assets/staff1.png"
+        },
+        "staff_members": [
+            {
+                "name": "Dr. Anupma Gupta",
+                "role": "Assistant Professor (DICE)",
+                "image": "src/assets/staff2.png"
+            },
+            {
+                "name": "Dr Satyajit Anand",
+                "role": "Associate Professor (DICE)",
+                "image": "src/assets/staff3.png"
+            },
+            {
+                "name": "Dr. Manvinder Sharma",
+                "role": "Associate Professor (DICE)",
+                "image": "src/assets/staff4.png"
+            }
+        ]
+    }
+
+    ```
+
+- competitions.json -> src/components/pages/Research.jsx
 
     ```txt
     {
@@ -26,7 +57,7 @@
     }
     ```
 
-2. events_ongoing.json -> src/components/pages/Event.jsx
+- events_ongoing.json -> src/components/pages/Event.jsx
 
     ```txt
     {
@@ -38,7 +69,7 @@
     }
     ```
 
-3. events_upcoming.json -> src/components/pages/Event.jsx
+- events_upcoming.json -> src/components/pages/Event.jsx
 
     ```txt
     {
@@ -49,7 +80,7 @@
     }
     ```
 
-4. events.json -> src/components/EventSlider.jsx
+- events.json -> src/components/EventSlider.jsx
 
     ```txt
     {
@@ -61,7 +92,7 @@
     }
     ```
 
-5. faqs.json -> src/components/FAQSection.jsx
+- faqs.json -> src/components/FAQSection.jsx
 
     ```txt
     {
@@ -70,7 +101,7 @@
     }
     ```
 
-6. for_you_events.json -> src/components/OrgForYou.jsx
+- for_you_events.json -> src/components/OrgForYou.jsx
 
     ```txt
     NO EDIT
@@ -86,7 +117,7 @@
     ]
     ```
 
-7. national_event_projects.json -> src/components/pages/NationalEvents.jsx
+- national_event_projects.json -> src/components/pages/NationalEvents.jsx
 
     ```txt
     {
@@ -96,7 +127,7 @@
     }
     ```
 
-8. publications.json -> src/components/pages/Research.jsx
+- publications.json -> src/components/pages/Research.jsx
 
     ```txt
     {
@@ -107,7 +138,7 @@
     }
     ```
 
-9. social_links.json -> src/components/Footer.jsx
+- social_links.json -> src/components/Footer.jsx
 
     ```txt
     NO EDIT

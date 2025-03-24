@@ -1,31 +1,15 @@
 import React from "react";
 import Navbar from "../Navbar";
 import image from "../../assets/diceLogo.png";
-import staff1 from "../../assets/staff1.png";
-import staff2 from "../../assets/staff2.png";
-import staff3 from "../../assets/staff3.png";
-import staff4 from "../../assets/staff4.png";
 import FAQSection from "../FAQSection";
 import Footer from "../Footer";
 
+import about from "../../data/about.json";
+
+const founder = about.founder;
+const staff_members = about.staff_members;
+
 export default function About() {
-  const staffMembers = [
-    {
-      name: "Dr. Anupma Gupta",
-      role: "Assistant Professor (DICE)",
-      image: staff2,
-    },
-    {
-      name: "Dr Satyajit Anand",
-      role: "Associate Professor (DICE)",
-      image: staff3,
-    },
-    {
-      name: "Dr. Manvinder Sharma",
-      role: "Associate Professor (DICE)",
-      image: staff4,
-    },
-  ];
   return (
     <div>
       <Navbar />
@@ -75,18 +59,18 @@ export default function About() {
           <div>
             <div>
               <img
-                src={staff1}
-                alt="staff1"
+                src={founder.image}
+                alt={founder.name}
                 className="w-[250px] h-[280px] m-8 rounded-xl"
               />
             </div>
             <div className="text-center">
-              <h1 className="font-semibold">Dr.(Prof) Rajneesh Talwaar</h1>
-              <p>Dean: DICE</p>
+              <h1 className="font-semibold">{founder.name}</h1>
+              <p>{founder.designation}</p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-x-8">
-            {staffMembers.map((staff, index) => (
+            {staff_members.map((staff, index) => (
               <div key={index}>
                 <div>
                   <img
