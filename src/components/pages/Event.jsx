@@ -50,7 +50,7 @@ export default function Event() {
         </div>
       </div>
       <div className="container mx-auto p-4">
-        <h1 className="text-4xl font-semibold mb-12 sm:text-5xl">
+        <h1 className="text-4xl font-semibold mb-12 sm:text-5xl text-center">
           Ongoing Events
         </h1>
         {events_ongoing.length === 0
@@ -96,11 +96,15 @@ export default function Event() {
           )}
       </div>
       <div className="container mx-auto pt-40 py-8 p-4">
-        <h1 className="text-4xl font-semibold mb-12 sm:text-5xl">
+        <h1 className="text-4xl font-semibold mb-12 sm:text-5xl text-center">
           Upcoming Events
         </h1>
         {events_upcoming.length === 0
-          ? <p className="text-2xl text-center">We will be organizing soon</p>
+          ? (
+            <p className="text-2xl text-center">
+              No upcoming events at the moment
+            </p>
+          )
           : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {events_upcoming.map((event, index) => (
