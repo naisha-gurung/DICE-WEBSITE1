@@ -13,8 +13,7 @@ export default function Hero() {
         </p>
         <div className="translate-y-16 flex flex-col items-center justify-center">
           <p>
-            Founded by:{" "}
-            <span className="font-medium">Dr. Rajneesh Talwaar</span>
+            Dean: <span className="font-medium">Dr. Rajneesh Talwaar</span>
           </p>
           <Link
             to={"/about"}
