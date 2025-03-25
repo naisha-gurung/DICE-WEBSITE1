@@ -114,6 +114,6 @@
         "organizedBy": "Indian Society for Technical Education",
         "venue": "S.B.S. State University",
         "participation": "1st, 2nd, 3rd Position",
-        "imageSrc": "src/assets/comp12.png"
+        "imageSrc": "./assets/comp12.png"
     }
 ]

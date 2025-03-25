@@ -50,13 +50,11 @@ html {
   75.1%,
   87.5% {
     background-image: url("./assets/herobg7.jpg");
-    background-image: url("src/assets/iit_ropar_ai_smart_farming.jpg");
   }
 
   87.6%,
   100% {
-    background-image: url("./assets/herobg7.jpg");
-    background-image: url("src/assets/iit_ropar_ai_smart_farming.jpg");
+    background-image: url("./assets/iit_ropar_ai_smart_farming.jpg");
   }
 }
 
