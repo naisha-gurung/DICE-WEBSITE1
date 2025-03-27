@@ -125,20 +125,12 @@ export default function Event() {
                     <p className="text-gray-600 mb-2">{event.eventDetail}</p>
                   </div>
                   <div className="mt-8">
-                    <Link
-                      to={{
-                        pathname: `/register/${
-                          encodeURIComponent(
-                            JSON.stringify(event),
-                          )
-                        }`,
-                        state: { event: event },
-                      }}
-                      target="blank"
+                    <a
+                      href={event.EventFormLink}
                       className="bg-black text-white py-2 px-8 rounded"
                     >
                       Register
-                    </Link>
+                    </a>
                   </div>
                 </div>
               ))}
