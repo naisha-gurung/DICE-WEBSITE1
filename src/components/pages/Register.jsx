@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import dicelogo from "../../assets/diceLogo.png";
+import dicelogo from "/public/assets/diceLogo.png";
 
 export default function Register() {
   const { eventId } = useParams();

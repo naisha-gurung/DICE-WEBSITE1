@@ -1,5 +1,5 @@
 import React from "react";
-import image3 from "../assets/image3.png";
+import image3 from "/public/assets/image3.png";
 import { Link } from "react-router-dom";
 
 export default function AboutSec() {

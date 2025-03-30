@@ -4,7 +4,7 @@ import Footer from "../Footer";
 import FAQSection from "../FAQSection";
 import EventSlider from "../EventSlider";
 import { Link } from "react-router-dom";
-import diceVid3 from "../../assets/DiceVid3.mp4";
+import diceVid3 from "/public/assets/DiceVid3.mp4";
 import events_upcoming from "../../data/events_upcoming.json";
 import events_ongoing from "../../data/events_ongoing.json";
 

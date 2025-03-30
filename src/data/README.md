@@ -20,23 +20,23 @@
         "founder": {
             "name": "Dr. (Prof) Rajneesh Talwaar",
             "designation": "Dean: DICE",
-            "image": "src/assets/staff1.png"
+            "image": "/public/assets/staff1.png"
         },
         "staff_members": [
             {
                 "name": "Dr. Anupma Gupta",
                 "role": "Assistant Professor (DICE)",
-                "image": "src/assets/staff2.png"
+                "image": "/public/assets/staff2.png"
             },
             {
                 "name": "Dr Satyajit Anand",
                 "role": "Associate Professor (DICE)",
-                "image": "src/assets/staff3.png"
+                "image": "/public/assets/staff3.png"
             },
             {
                 "name": "Dr. Manvinder Sharma",
                 "role": "Associate Professor (DICE)",
-                "image": "src/assets/staff4.png"
+                "image": "/public/assets/staff4.png"
             }
         ]
     }
@@ -53,7 +53,7 @@
         "organizedBy": "Ramaiyah Institute of Technology",
         "venue": "Bengaluru",
         "participation": "3rd Position",
-        "imageSrc": "src/assets/comp1.png"
+        "imageSrc": "/public/assets/comp1.png"
     }
     ```
 
@@ -88,7 +88,7 @@
         "title": "National Science Day Presentation Competition",
         "date": "February 28, 2024",
         "content": "DICE organized a presentation competition on indigenous technologies, promoting innovation and scientific curiosity among students. 66 presentations showcased creative ideas, enhancing research skills and communication abilities.",
-        "imageUrl": "/src/assets/blog1.jpeg"
+        "imageUrl": "/public/assets/blog1.jpeg"
     }
     ```
 
@@ -123,7 +123,7 @@
     {
         "title": "Exploring Machine Learning Applications Workshop at Chitkara University",
         "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University hosted a workshop titled Exploring Machine Learning on October 7, 2023. Led by Prof (Dr.) Rajneesh Talwar, the event highlighted the importance of machine learning in today's technology landscape. Dr. Satyajit Anand, an expert in the field, guided participants through various aspects of machine learning, including dataset handling, data visualization, and model building. The interactive session concluded with attendees feeling inspired to delve deeper into the field.",
-        "image": "src/assets/BlogPageImg1.png"
+        "image": "/public/assets/BlogPageImg1.png"
     }
     ```
 

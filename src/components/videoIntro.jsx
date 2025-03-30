@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import video from "../assets/DiceVid2.mp4";
+import video from "/public/assets/DiceVid2.mp4";
 
 const VerticalLogo = () => (
   <div className="hidden lg:flex flex-col items-center justify-around">
