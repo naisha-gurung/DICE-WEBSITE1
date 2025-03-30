@@ -33,5 +33,12 @@
         "date": "August 4, 2023",
         "content": "DICE organized an Expert Talk on Data Structures at Plato Hall. Dr. Rajneesh Talwar introduced the session, followed by Dr. Sandeep Sachdeva's informative talk covering types, applications, time complexity, optimization, and live coding demonstrations.",
         "imageUrl": "/assets/blog5.jpeg"
+    },
+    {
+        "id": 6,
+        "title": "Innovation in Computer Vision Techniques",
+        "date": "2025-02-27",
+        "content": "Chitkara University's DICE department hosted a hands-on workshop on \"Innovation in Computer Vision Techniques\" to bridge academia and industry. Dr. Rajneesh Talwar emphasized computer vision’s significance in various industries. Industry expert Mr. Sarabjit Singh introduced key concepts like image processing and object detection. His team led practical sessions.",
+        "imageUrl": "/assets/events/2025-02-27-Innovations-in-Computer-Vision-Techniques.jpg"
     }
 ]
