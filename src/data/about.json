@@ -2,23 +2,23 @@
     "founder": {
         "name": "Dr. (Prof) Rajneesh Talwaar",
         "designation": "Dean: DICE",
-        "image": "src/assets/staff1.png"
+        "image": "/assets/staff1.png"
     },
     "staff_members": [
         {
             "name": "Dr. Anupma Gupta",
             "role": "Assistant Professor (DICE)",
-            "image": "src/assets/staff2.png"
+            "image": "/assets/staff2.png"
         },
         {
             "name": "Dr Satyajit Anand",
             "role": "Associate Professor (DICE)",
-            "image": "src/assets/staff3.png"
+            "image": "/assets/staff3.png"
         },
         {
             "name": "Dr. Manvinder Sharma",
             "role": "Associate Professor (DICE)",
-            "image": "src/assets/staff4.png"
+            "image": "/assets/staff4.png"
         }
     ]
 }

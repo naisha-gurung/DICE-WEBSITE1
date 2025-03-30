@@ -2,7 +2,7 @@ import React from "react";
 import { GrWorkshop } from "react-icons/gr";
 import { IoTerminal } from "react-icons/io5";
 import { FaChalkboardTeacher, FaLaptopCode } from "react-icons/fa";
-import image2 from "../assets/image2.jpeg";
+import image2 from "/public/assets/image2.jpeg";
 import for_you_events from "../data/for_you_events.json";
 
 const iconmap = {
