@@ -12,49 +12,54 @@ html {
 }
 
 .animation-slide {
-  animation: slide 40s infinite;
+  animation: slide 20s infinite;
 }
 
 @keyframes slide {
 
   0%,
-  12.5% {
+  11.1% {
     background-image: url("/public/assets/heroBg.jpeg");
   }
 
-  12.6%,
-  25% {
+  11.2%,
+  22.2% {
     background-image: url("/public/assets/herobg2.jpg");
   }
 
-  25.1%,
-  37.5% {
+  22.3%,
+  33.3% {
     background-image: url("/public/assets/herobg3.jpg");
   }
 
-  37.6%,
-  50% {
+  33.4%,
+  44.4% {
     background-image: url("/public/assets/herobg4.jpg");
   }
 
-  50.1%,
-  62.5% {
+  44.5%,
+  55.5% {
     background-image: url("/public/assets/herobg5.jpg");
   }
 
-  62.6%,
-  75% {
+  55.6%,
+  66.6% {
     background-image: url("/public/assets/herobg6.jpg");
   }
 
-  75.1%,
-  87.5% {
+  66.7%,
+  77.7% {
     background-image: url("/public/assets/herobg7.jpg");
   }
 
-  87.6%,
-  100% {
+  77.8%,
+  88.8% {
     background-image: url("/public/assets/iit_ropar_ai_smart_farming.jpg");
+  }
+
+  88.9%,
+  100% {
+    background-image: url("/public/assets/dice_ebike.jpg");
   }
 }
 
