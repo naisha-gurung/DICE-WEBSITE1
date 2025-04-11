@@ -21,7 +21,7 @@ const NationalEvents = () => {
                 <>
                   <div className="md:w-1/3 mr-4">
                     <img
-                      src={blog.image}
+                      src={blog.image_url}
                       alt="Blog Image"
                       className="w-full h-[300px] rounded-md shadow-md"
                     />
@@ -44,7 +44,7 @@ const NationalEvents = () => {
                   </div>
                   <div className="md:w-1/3 ml-4">
                     <img
-                      src={blog.image}
+                      src={blog.image_url}
                       alt="Blog Image"
                       className="w-full h-[300px] rounded-md shadow-md"
                     />

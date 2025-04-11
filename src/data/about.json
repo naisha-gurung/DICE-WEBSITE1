@@ -6,9 +6,14 @@
     },
     "staff_members": [
         {
-            "name": "Dr. Anupma Gupta",
-            "role": "Assistant Professor (DICE)",
-            "image": "/assets/staff2.png"
+            "name": "Dr. Danveer Mandal",
+            "role": "Professor (DICE)",
+            "image": "/assets/dr_danveer_mandal_2.jpg"
+        },
+        {
+            "name": "Dr. Mandeep",
+            "role": "(DICE)",
+            "image": "/assets/dr_mandeep.jpg"
         },
         {
             "name": "Dr Satyajit Anand",
