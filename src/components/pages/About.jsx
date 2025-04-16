@@ -81,7 +81,7 @@ export default function About() {
                 </div>
                 <div className="text-center">
                   <h1 className="font-semibold">{staff.name}</h1>
-                  <p>{staff.role}</p>
+                  {staff.roles.map((role, index) => <p key={index}>{role}</p>)}
                 </div>
               </div>
             ))}

@@ -1,28 +1,42 @@
 {
     "founder": {
         "name": "Dr. (Prof) Rajneesh Talwaar",
-        "designation": "Dean: DICE",
+        "designations": [
+            "Dean DICE",
+            "Head CSE Examination"
+        ],
         "image": "/assets/staff1.png"
     },
     "staff_members": [
         {
             "name": "Dr. Danveer Mandal",
-            "role": "Professor (DICE)",
+            "roles": [
+                "Course Coordinator",
+                "ESIoT (Evening Shift)"
+            ],
             "image": "/assets/dr_danveer_mandal_2.jpg"
         },
         {
-            "name": "Dr. Mandeep",
-            "role": "(DICE)",
-            "image": "/assets/dr_mandeep.jpg"
+            "name": "Dr. Pardeep Jindal",
+            "roles": [
+                "DECA (Evening Shift)"
+            ],
+            "image": "/assets/dr_pardeep_jindal.jpg"
         },
         {
             "name": "Dr Satyajit Anand",
-            "role": "Associate Professor (DICE)",
+            "roles": [
+                "Associate Professor",
+                "(ESIoT Morning Shift)"
+            ],
             "image": "/assets/staff3.png"
         },
         {
             "name": "Dr. Manvinder Sharma",
-            "role": "Associate Professor (DICE)",
+            "roles": [
+                "Associate Professor",
+                "(ESIoT Morning Shift)"
+            ],
             "image": "/assets/staff4.png"
         }
     ]
