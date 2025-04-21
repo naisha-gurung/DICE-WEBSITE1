@@ -1,10 +1,31 @@
 [
     {
+        "id": 7,
+        "title": "Arduino/NodeMCU using Sensors",
+        "date": "2025-04-14",
+        "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University organized a hands-on workshop titled - “Arduino/NodeMCU Using Sensors” on April 4, 2025, at Turing Block (TG022). The session was led by Prof. (Dr.) Rajneesh Talwar, Dean, DICE, and Dr. Pardeep Kumar Jindal, DICE department. Dr. Talwar introduced participants to the capabilities of Arduino and NodeMCU platforms in IoT applications, emphasizing their use with various sensors.",
+        "imageUrl": "/assets/events/2025-02-02-Arduino-NodeMCU-Using-Sensors.jpg"
+    },
+    {
+        "id": 8,
+        "title": "REV Expo 2025",
+        "date": "2025-03-08",
+        "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University, Punjab, organized an educational visit for students from various engineering disciplines on March 8, 2025, to the Renewable Energy and Electric Vehicle (REV) Expo 2025 in Chandigarh. Dr. Rajneesh Talwar, Professor and Dean of DICE, along with faculty members, led a group of 60+ students to gain practical exposure to emerging technologies in sustainable energy and electric mobility. During the visit, students explored the latest advancements in electric vehicles, solar panels, IoT-based solar management systems, batteries and battery management system solutions.",
+        "imageUrl": "/assets/events/2025-03-08-RevExpo.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Innovative Ideas Implementation Using Drone",
+        "date": "2025-02-13",
+        "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University organized a workshop titled \"Innovative Ideas Implementation Using Drone\" on February 13, 2025. The session, focused on leveraging drone technology for innovation and real-world applications.",
+        "imageUrl": "/assets/events/2025-02-13-Drone-Workshop.jpg"
+    },
+    {
         "id": 6,
         "title": "Innovation in Computer Vision Techniques",
         "date": "2025-02-27",
         "content": "Chitkara University's DICE department hosted a hands-on workshop on \"Innovation in Computer Vision Techniques\" to bridge academia and industry. Dr. Rajneesh Talwar emphasized computer vision’s significance in various industries. Industry expert Mr. Sarabjit Singh introduced key concepts like image processing and object detection. His team led practical sessions.",
-        "imageUrl": "/assets/events/2025-02-27-Innovations-in-Computer-Vision-Techniques.jpg"
+        "imageUrl": "/assets/events/2025-04-14-Innovations-in-Computer-Vision-Techniques.jpg"
     },
     {
         "id": 1,

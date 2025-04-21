@@ -66,7 +66,9 @@ export default function About() {
             </div>
             <div className="text-center">
               <h1 className="font-semibold">{founder.name}</h1>
-              <p>{founder.designation}</p>
+              {founder.designations.map((role, index) => (
+                <p key={index}>{role}</p>
+              ))}
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-x-8">
@@ -81,7 +83,7 @@ export default function About() {
                 </div>
                 <div className="text-center">
                   <h1 className="font-semibold">{staff.name}</h1>
-                  <p>{staff.role}</p>
+                  {staff.roles.map((role, index) => <p key={index}>{role}</p>)}
                 </div>
               </div>
             ))}
