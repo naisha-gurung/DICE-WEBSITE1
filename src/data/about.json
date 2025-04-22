@@ -19,6 +19,7 @@
         {
             "name": "Dr. Pardeep Jindal",
             "roles": [
+                "Course Coordinator",
                 "DECA (Evening Shift)"
             ],
             "image": "/assets/dr_pardeep_jindal.jpg"
@@ -27,7 +28,7 @@
             "name": "Dr Satyajit Anand",
             "roles": [
                 "Associate Professor",
-                "(ESIoT Morning Shift)"
+                "(DECA Morning Shift)"
             ],
             "image": "/assets/staff3.png"
         },

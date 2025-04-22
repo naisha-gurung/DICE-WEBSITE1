@@ -117,7 +117,7 @@
     ]
     ```
 
-- national_event_projects.json -> src/components/pages/NationalEvents.jsx
+- national_events.json -> src/components/pages/NationalEvents.jsx
 
     ```txt
     {
