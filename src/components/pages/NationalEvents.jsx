@@ -9,7 +9,7 @@ const NationalEvents = () => {
       <Navbar />
       <div className="w-[90%] mx-auto px-4 py-8 pt-40">
         <h1 className="text-5xl font-bold mb-8 text-center">
-          Projects & National Events
+          National Events
         </h1>
         {national_events.map((blog, index) => (
           <div
