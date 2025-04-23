@@ -28,7 +28,10 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-800 text-gray-300 py-12">
+    <footer
+      className="bg-gray-800 text-gray-300 py-12 z-40 relative w-full border-t border-gray-700"
+      style={{ isolation: "isolate" }}
+    >
       <div className="max-w-6xl mx-auto flex flex-wrap justify-between items-center px-4">
         <div className="flex flex-col md:flex-row">
           {links.map((link, index) => (

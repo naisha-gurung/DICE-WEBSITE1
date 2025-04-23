@@ -8,7 +8,8 @@ export default function Navbar() {
   const navLinks = [
     { title: "Home", path: "/" },
     { title: "About", path: "/about" },
-    { title: "Projects & National Events", path: "/national" },
+    { title: "National Events", path: "/national" },
+    { title: "Projects", path: "/projects" },
     { title: "Events", path: "/event" },
     { title: "Research & Achievements", path: "/research" },
     { title: "Contact", path: "/contact" },
@@ -19,7 +20,10 @@ export default function Navbar() {
     setSidebarPos(sidebarPos === "-right-full" ? "-right-0" : "-right-full");
   };
   return (
-    <div className="w-full bg-white fixed top-0 z-50 flex justify-between items-center px-8 py-2 shadow-2xl rounded-b-2xl">
+    <div
+      className="w-full bg-white fixed top-0 z-50 flex justify-between items-center px-8 py-2 shadow-2xl rounded-b-2xl border-b border-gray-200"
+      style={{ isolation: "isolate" }}
+    >
       <div>
         <img alt="dice logo" src={logo} width={170} />
       </div>
