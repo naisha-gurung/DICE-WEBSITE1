@@ -7,7 +7,7 @@
 - events.json -> src/components/EventSlider.jsx
 - faqs.json -> src/components/FAQSection.jsx
 - for_you_events.json -> src/components/OrgForYou.jsx
-- nation_event_projects.json -> src/components/pages/NationalEvents.jsx
+- national_events.json -> src/components/pages/NationalEvents.jsx
 - publications.json -> src/components/pages/Research.jsx
 - social_links.json -> src/components/Footer.jsx
 
@@ -117,7 +117,7 @@
     ]
     ```
 
-- national_event_projects.json -> src/components/pages/NationalEvents.jsx
+- national_events.json -> src/components/pages/NationalEvents.jsx
 
     ```txt
     {

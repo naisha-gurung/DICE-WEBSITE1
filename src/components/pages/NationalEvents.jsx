@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import national_event_projects from "../../data/national_event_projects.json";
+import national_events from "../../data/national_events.json";
 
 const NationalEvents = () => {
   return (
@@ -9,9 +9,9 @@ const NationalEvents = () => {
       <Navbar />
       <div className="w-[90%] mx-auto px-4 py-8 pt-40">
         <h1 className="text-5xl font-bold mb-8 text-center">
-          Projects & National Events
+          National Events
         </h1>
-        {national_event_projects.map((blog, index) => (
+        {national_events.map((blog, index) => (
           <div
             key={index}
             className="flex flex-col md:flex-row items-center my-24 gap-x-24"
