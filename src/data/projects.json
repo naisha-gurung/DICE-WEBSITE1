@@ -49,8 +49,9 @@
             "10 (Reduced Inequalities): Improves accessibility for people with disabilities."
         ],
         "images": [
-            "/assets/projects/wheelchair-tricycle-0.jpg",
-            "/assets/projects/wheelchair-tricycle-1.jpg"
+            "/assets/projects/electric-wheel-chair.jpg",
+            "/assets/projects/electric-wheel-chair-riding-0.mp4",
+            "/assets/projects/electric-wheel-chair-riding-1.mp4"
         ]
     },
     {
@@ -68,10 +69,7 @@
             "9 (Industry, Innovation and Infrastructure): Incorporates advanced assistive technology.",
             "10 (Reduced Inequalities): Increases independence for disabled individuals."
         ],
-        "images": [
-            "/assets/projects/wheelchair-tricycle-0.jpg",
-            "/assets/projects/wheelchair-tricycle-1.jpg"
-        ]
+        "images": []
     },
     {
         "id": 4,
@@ -109,8 +107,7 @@
         ],
         "images": [
             "/assets/projects/electric-scooter-0.jpg",
-            "/assets/projects/electric-scooter-1.jpg",
-            "/assets/projects/electric-scooter-2.jpg"
+            "/assets/projects/electric-scooter-1.jpg"
         ]
     },
     {
