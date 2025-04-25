@@ -49,28 +49,8 @@
             "10 (Reduced Inequalities): Improves accessibility for people with disabilities."
         ],
         "images": [
-            "/assets/projects/wheelchair-tricycle-0.jpg",
-            "/assets/projects/wheelchair-tricycle-1.jpg"
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Smart IoT enabled Wheel Chair",
-        "description": "An intelligent wheelchair equipped with IoT features like health monitoring, GPS, and fall detection to enhance safety and autonomy.",
-        "specs": [],
-        "sdgs": [
-            3,
-            9,
-            10
-        ],
-        "sdg_explanation": [
-            "3 (Good Health and Well-being): Supports users’ health and safety.",
-            "9 (Industry, Innovation and Infrastructure): Incorporates advanced assistive technology.",
-            "10 (Reduced Inequalities): Increases independence for disabled individuals."
-        ],
-        "images": [
-            "/assets/projects/wheelchair-tricycle-0.jpg",
-            "/assets/projects/wheelchair-tricycle-1.jpg"
+            "public/assets/projects/wheelchair-tricycle-0.jpg",
+            "public/assets/projects/wheelchair-tricycle-1.jpg"
         ]
     },
     {
@@ -109,8 +89,7 @@
         ],
         "images": [
             "/assets/projects/electric-scooter-0.jpg",
-            "/assets/projects/electric-scooter-1.jpg",
-            "/assets/projects/electric-scooter-2.jpg"
+            "/assets/projects/electric-scooter-1.jpg"
         ]
     },
     {
@@ -130,6 +109,27 @@
         ],
         "images": [
             "/assets/projects/electric-matrix-notice-board.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Smart IoT enabled Wheel Chair",
+        "description": "An intelligent wheelchair equipped with IoT features like health monitoring, GPS, and fall detection to enhance safety and autonomy.",
+        "specs": [],
+        "sdgs": [
+            3,
+            9,
+            10
+        ],
+        "sdg_explanation": [
+            "3 (Good Health and Well-being): Supports users’ health and safety.",
+            "9 (Industry, Innovation and Infrastructure): Incorporates advanced assistive technology.",
+            "10 (Reduced Inequalities): Increases independence for disabled individuals."
+        ],
+        "images": [
+            "/assets/projects/electric-wheel-chair.jpg",
+            "/assets/projects/electric-wheel-chair-riding-0.mp4",
+            "/assets/projects/electric-wheel-chair-riding-1.mp4"
         ]
     }
 ]

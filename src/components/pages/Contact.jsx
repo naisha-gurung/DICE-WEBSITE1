@@ -115,11 +115,11 @@ export default function Contact() {
                 </h1>
                 <h1 className="text-gray-600">
                   <a
-                    href="tel:+917015745045"
+                    href="tel:+917986577702"
                     rel="noopener noreferrer"
                     className="text-gray-600 flex items-center hover:text-blue-600"
                   >
-                    <FaPhone /> &nbsp; +91 7015745045
+                    <FaPhone /> &nbsp; +91 798 657 7702
                   </a>
                 </h1>
               </div>
