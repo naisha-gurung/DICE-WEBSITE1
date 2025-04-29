@@ -30,7 +30,8 @@
         ],
         "images": [
             "/assets/projects/e-bike-0.jpg",
-            "/assets/projects/e-bike-1.jpg"
+            "/assets/projects/e-bike-1.jpg",
+            "/assets/projects/e-bike-riding-0.mp4"
         ]
     },
     {
@@ -49,8 +50,9 @@
             "10 (Reduced Inequalities): Improves accessibility for people with disabilities."
         ],
         "images": [
-            "public/assets/projects/wheelchair-tricycle-0.jpg",
-            "public/assets/projects/wheelchair-tricycle-1.jpg"
+            "/assets/projects/wheelchair-tricycle-0.jpg",
+            "/assets/projects/wheelchair-tricycle-1.jpg",
+            "/assets/projects/solar-wheel-chair-riding-0.mp4"
         ]
     },
     {
@@ -130,6 +132,17 @@
             "/assets/projects/electric-wheel-chair.jpg",
             "/assets/projects/electric-wheel-chair-riding-0.mp4",
             "/assets/projects/electric-wheel-chair-riding-1.mp4"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "ioT enabled Smart Signboard",
+        "description": "",
+        "specs": [],
+        "sdgs": [],
+        "sdg_explanation": [],
+        "images": [
+            "/assets/projects/smart-led-sign.mp4"
         ]
     }
 ]
