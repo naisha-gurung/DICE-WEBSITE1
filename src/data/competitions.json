@@ -1,12 +1,21 @@
 [
     {
-        "sno": 14,
+        "sno": 15,
         "name": "Sustainable Eco Harvesting - Agro Expo for Green Future",
         "date": "2025-04-02",
         "organizedBy": "CURIN",
         "venue": "Chitkara University",
         "participation": "2nd, 3rd Position",
         "imageSrc": "/assets/dice_ebike.jpg"
+    },
+    {
+        "sno": 14,
+        "name": "DICE Team at IIT Mandi",
+        "date": "2025-03-31",
+        "organizedBy": "IIT Mandi",
+        "venue": "IIT Mandi",
+        "participation": "From Drones to Debugging: Chitkara Students Make a Mark at IIT Mandi Students from Chitkara University’s Department of Interdisciplinary Courses in Engineering (DICE) guided by Dr.Rajneesh Talwar, showcased their talent at XPECTO 2025—the annual tech fest at IIT Mandi, held from March 28–31. Competing alongside top institutions like IIT Mandi, DTU, PEC, IIT Delhi, and more, our students participated in high-impact events such as Domination, Wall Maze Solver, Sky Quest R-1 & R-2, Samsaya, Dementia, and Frost Hack.",
+        "imageSrc": "/assets/national_events/2025-03-31-iit-mandi.jpg"
     },
     {
         "sno": 13,

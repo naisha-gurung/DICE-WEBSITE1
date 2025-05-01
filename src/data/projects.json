@@ -110,7 +110,8 @@
             "11 (Sustainable Cities and Communities): Enhances information access in public areas."
         ],
         "images": [
-            "/assets/projects/electric-matrix-notice-board.jpg"
+            "/assets/projects/electric-matrix-notice-board.jpg",
+            "/assets/projects/smart-led-sign.mp4"
         ]
     },
     {
@@ -136,13 +137,13 @@
     },
     {
         "id": 6,
-        "title": "ioT enabled Smart Signboard",
+        "title": "Smart Barricade",
         "description": "",
         "specs": [],
         "sdgs": [],
         "sdg_explanation": [],
         "images": [
-            "/assets/projects/smart-led-sign.mp4"
+            "/assets/projects/smart-barricade.mp4"
         ]
     }
 ]
