@@ -11,7 +11,8 @@ export default function Navbar() {
     { title: "National Events", path: "/national" },
     { title: "Projects", path: "/projects" },
     { title: "Events", path: "/event" },
-    { title: "Research & Achievements", path: "/research" },
+    { title: "Research", path: "/research" },
+    { title: "Competitions", path: "/competitions" },
     { title: "Contact", path: "/contact" },
   ];
 
