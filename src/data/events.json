@@ -21,7 +21,7 @@
         "imageUrl": "/assets/events/2025-02-02-Arduino-NodeMCU-Using-Sensors.jpg"
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Innovative Ideas Implementation Using Drone",
         "date": "2025-02-13",
         "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University organized a workshop titled \"Innovative Ideas Implementation Using Drone\" on February 13, 2025. The session, focused on leveraging drone technology for innovation and real-world applications.",
@@ -68,5 +68,12 @@
         "date": "2023-01-01",
         "content": "Dr. Rajneesh Talwar's project paper on 'E-Bike' was selected at the International Conference, organized by DST-Centre, Panjab University, RFRF, FPTU-Vietnam, NTU-UK, and CICU. The conference facilitated discussions on practical knowledge opportunities, and funding initiatives, aiming to foster innovation and collaboration between industry, and government bodies.",
         "imageUrl": "/assets/blog4.jpeg"
+    },
+    {
+        "id": 11,
+        "title": "Faculty Development Program",
+        "date": "2025-06-23 to 2025-06-27",
+        "content": " DICE organized a five-day Faculty Development Program, “Emerging Interdisciplinary Technologies in Engineering 2.0,” from June 23–27, 2025. The program offered hands-on training in IoT, Python, Machine Learning, AI, Generative AI, Explainable AI, and Blockchain. Expert-led sessions combined theory with practical applications, promoting innovation and interdisciplinary learning aligned with key Sustainable Development Goals.",
+        "imageUrl": "/assets/events/fdp.jpeg"
     }
 ]
