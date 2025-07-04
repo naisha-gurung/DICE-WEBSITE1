@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
-import image from "/public/assets/diceLogo.png";
+import image from "/assets/diceLogo.png";
 import FAQSection from "../FAQSection";
 import Footer from "../Footer";
 
